@@ -1,0 +1,102 @@
+body {
+    background-image: url(img/background/bg1.jpg);
+}
+
+.navbar-brand {
+    font-family: sans-serif;
+    font-size: 30px;
+    
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.nav-link:hover {
+    color: #0D6EFD;
+}
+
+.aboutme {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 70px 12% 0;
+
+}
+
+.home-content {
+    max-width: 800px;
+}
+.home-content h3 {
+    font-size: 42px;
+    font-family: system-ui;
+    padding-top: 70px;
+    color: #FFDDAE;
+}
+.home-content h1 {
+    font-size: 62px;
+    line-height: 1.2;
+}
+.home-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+.profile{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.profileImage{
+    width: 300px;
+}   
+.rounded-circle {
+    width: 300px;
+}
+#data-diri {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+.info p {
+    margin: 5px 0;
+}
+.jumbotron {
+    height: 500px;
+    margin-top: 90px;
+}
+.jumbotron .display-5{
+    color:#fff;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+.info {
+    text-align: center;
+}
+.card {
+    background-color: #f3f4f5;
+    margin-top: 40px;
+}
+.container {
+    margin-top: 90px;
+}
+.list-group {
+    margin-top: 5px;
+}
+.head {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.subNameHeading {
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
